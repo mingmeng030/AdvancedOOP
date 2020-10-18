@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-
 public class WeatherDisplay extends DisplayDecorator{
     Display displayComponent;
     LabelPanel labelPanel;
@@ -18,7 +17,6 @@ public class WeatherDisplay extends DisplayDecorator{
     @Override
     public JPanel create() {
         JPanel panel=new JPanel();
-
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 
         JPanel subPanel = displayComponent.create();
@@ -34,5 +32,4 @@ public class WeatherDisplay extends DisplayDecorator{
         displayComponent.show();
         labelPanel.updateText("Weather : 온도 : 20, 습도 : 60");
     }
-
 }

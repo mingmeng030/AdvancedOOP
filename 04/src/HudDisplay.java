@@ -4,7 +4,6 @@ import java.awt.*;
 public class HudDisplay extends Display {
     JPanel panel;
     LabelPanel labelPanel;
-
     HudDisplay(int width, int height) {
         super(width, height);
     }
