@@ -7,7 +7,10 @@ import java.io.IOException;
 
 //import java.imageio.*;
 
-class InverseImageConverter implements IColorConverter {
+class InverseImageConverter extends ImageConverter {
+    public InverseImageConverter(String imageFileFormat){
+        super(imageFileFormat);
+    }
     public Color convert(Color color) {
         int outputRed = 255 - color.getRed();
         int outputGreen = 255 - color.getGreen();

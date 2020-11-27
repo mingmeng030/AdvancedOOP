@@ -7,7 +7,10 @@ import java.io.IOException;
 
 //import java.imageio.*;
 
-class SepiaImageConverter implements IColorConverter {
+class SepiaImageConverter extends ImageConverter {
+    public SepiaImageConverter(String imageFileFormat){
+        super(imageFileFormat);
+    }
     public Color convert(Color color) {
         int grey = (color.getRed() + color.getGreen() + color.getBlue()) / 3;
         int outputRed = 230 * grey / 255;

@@ -3,13 +3,13 @@ public class Midterm01 {
         final String HOUSE = "house.png";
         final String IMAGE_FORMAT = "png";
 
-        ImageConverter converter = new ImageConverter(IMAGE_FORMAT, new GreyImageConverter());
+        ImageConverter converter = new GreyImageConverter(IMAGE_FORMAT);
         converter.convert(HOUSE, "g_" + HOUSE);
 
-        converter.setColorConverter(new InverseImageConverter());
+        converter= new InverseImageConverter(IMAGE_FORMAT);
         converter.convert(HOUSE, "i_" + HOUSE);
 
-        converter.setColorConverter(new SepiaImageConverter());
+        converter=new SepiaImageConverter(IMAGE_FORMAT);
         converter.convert(HOUSE, "s_" + HOUSE);
     }
 }
