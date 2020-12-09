@@ -2,85 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7b74b29-d15b-4bf3-a836-3433cdcc2b60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/AdvancedOOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecoratorPattern_practice/DecoratorPattern_homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FactoryPattern_practice/FactoryPattern_practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FactoryPattern_practice/src/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ObserverPattern_practice/ObserberPattern_homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StrategyPattern_practice/StrategyPattern_Homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01/src/WordProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01/src/WordProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrameWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/DecoratorPattern_homework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/MP04Student/Display.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/MP04Student/DisplayDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/MP04Student/FrameWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/MP04Student/HudDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/MP04Student/LabelPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/MP04Student/LoadDisplayInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/MP04Student/MainWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/MP04Student/displays.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/displays.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/Display.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/DisplayDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/FrameWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/HudDisplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/LabelPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/LoadDisplayInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/LoadHudDisplays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/MainWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/MainWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/SpeedometerDisplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/TimeDisplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/out/production/DecoratorPattern_homework/WeatherDisplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/Display.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/DisplayDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/FrameWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/HudDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/LabelPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/LoadDisplayInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/LoadHudDisplays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/MainWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/SpeedometerDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/TimeDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern_homework/src/WeatherDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/ObserberPattern_homework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/out/production/ObserberPattern_homework/FrameWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/out/production/ObserberPattern_homework/LabelWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/out/production/ObserberPattern_homework/MainWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/out/production/ObserberPattern_homework/MainWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/out/production/ObserberPattern_homework/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/out/production/ObserberPattern_homework/PrimeObservableThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/out/production/ObserberPattern_homework/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/out/production/ObserberPattern_homework/TextFieldWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/src/FrameWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/src/LabelWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/src/MainWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/src/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/src/PrimeObservableThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/src/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserberPattern_homework/src/TextFieldWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObserverPatternPractice_Starbuzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObserverPatternPractice_Starbuzz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/StrategyPattern_Homework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/src/Comparable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/src/CompareFileName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/src/CompareFileType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/src/CompareModifiedDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/src/CompareSize.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/src/FileInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StrategyPattern_Homework/src/Sorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyPattern_practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StrategyPattern_practice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ObserverPattern_Practice2" />
   </component>
   <component name="RunManager">
     <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -153,10 +79,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="168" key="FileChooserDialogImpl" timestamp="1602825954947">
+    <state x="729" y="168" key="FileChooserDialogImpl" timestamp="1607492595282">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="729" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602825954947" />
+    <state x="729" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607492595282" />
     <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1602825957378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

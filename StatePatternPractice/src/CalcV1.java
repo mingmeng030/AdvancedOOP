@@ -6,15 +6,10 @@ public class CalcV1 {
 
     Scanner scanner;
     String inputStr;
-    int operand1; // 첫 번째 피 연산자값 저장
-    int operand2; // 두 번째 피 연산자값 저장
+    int operand1,operand2; // 첫 번째,두 번째 피연산자값 저장
     char operator; // 사칙 연산자 저장
 
-    State state;
-    State StartState;
-    State FirstOperandState;
-    State SecondOperandState;
-    State OperatorState;
+    State state,StartState,FirstOperandState,SecondOperandState,OperatorState;
 
     void setState(State state){
         this.state=state;
@@ -28,7 +23,7 @@ public class CalcV1 {
         SecondOperandState = new SecondOperandState(this);
         OperatorState=new OperatorState(this);
 
-        state = StartState;
+        state = StartState; //현재 상태를 Start로 초기화
     }
 
     String getInput(String s) {

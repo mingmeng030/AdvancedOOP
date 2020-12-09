@@ -2,7 +2,7 @@ import java.util.*;
 
 public class WordProcessor {
     ISpellChecker spellChecker;
-    Map<String, DocConverter> docConverters=new HashMap<String, DocConverter>();
+    Map<String, DocConverter> docConverters=new HashMap<String, DocConverter>(); //문자열과 DocConverter를 담은 map
     String fileName;
 
     WordProcessor(String fileName){ //확장자가 주어지지 않은 상태인 file 이름
@@ -32,36 +32,3 @@ public class WordProcessor {
         spellChecker.check();
     }
 }
-
-
-
-
-
-
-
-
-//public class WordProcessor {
-//    ISpellChecker spellChecker;
-//    Map<String, DocConverter> docConverters=new HashMap<String, DocConverter>();
-//    String fileName;
-//
-//    WordProcessor(String fileName){ this.fileName=fileName; }
-//
-//    void addDocConverter(DocConverter converter){
-//        this.docConverters.put(converter.getExtension(),converter);
-//    }
-//
-//    void convertDocTo(String ext){
-//        if(docConverters.containsKey(ext)){
-//            DocConverter temp=docConverters.get(ext);
-//            temp.save(fileName);
-//        }
-//        else{
-//            System.out.println("error");
-//        }
-//    }
-//
-//    void setSpellChecker(ISpellChecker spellChecker){ this.spellChecker=spellChecker; }
-//    void checkSpelling() { spellChecker.check(); }
-//}
-

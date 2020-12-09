@@ -16,5 +16,5 @@ class InverseImageConverter extends ImageConverter {
         int outputGreen = 255 - color.getGreen();
         int outputBlue = 255 - color.getBlue();
         return new Color(outputRed, outputGreen, outputBlue);
-    }
+    } //아예 새로운 Color 객체를 만들어서 return
 }

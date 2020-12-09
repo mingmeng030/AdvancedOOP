@@ -6,10 +6,12 @@ public class MainWindow extends FrameWindow implements ActionListener {
     private static final String MAIN_TITLE = "Main Window";
     private static final String TEXTFIELD_WINDOW_TITLE = "TextField Window";
     private static final String LABEL_WINDOW_TITLE = "Label Window";
+
     private static final String TEXTFIELD_OBSERVER_ADD_BUTTON_TITLE = "Add TextField Window Observer";
     private static final String LABEL_OBSERVER_ADD_BUTTON_TITLE = "Add Label Window Observer";
     private static final String TEXTFIELD_OBSERVER_REMOVE_BUTTON_TITLE = "Remove TextField Window Observer";
     private static final String LABEL_OBSERVER_REMOVE_BUTTON_TITLE = "Remove Label Window Observer";
+
     private static final String STOP_THREAD_BUTTON_TITLE = "Stop Generating Prime Number";
     private static final int X = 250;
     private static final int Y = 100;
@@ -23,6 +25,7 @@ public class MainWindow extends FrameWindow implements ActionListener {
     private PrimeObservableThread primeThread;
     private TextFieldWindow textFieldWindow;
     private LabelWindow labelWindow;
+
     private boolean TextFieldFlag=true;
     private boolean LabelFieldFlag=true;
 
@@ -61,32 +64,32 @@ public class MainWindow extends FrameWindow implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == TextFieldObserverButton) {
-            if(TextFieldFlag){    //메시지는 ADD로, 상태는 REMOVE로
+        if (e.getSource() == TextFieldObserverButton) { // textfield 버튼 눌렀을 때
+            if(TextFieldFlag){    //flag true이면 add상태에서 버튼 눌렸으므로 메시지는 ADD로, 상태는 REMOVE로
                 primeThread.removeObservers(textFieldWindow);
                 TextFieldFlag=false;
                 TextFieldObserverButton.setText(TEXTFIELD_OBSERVER_ADD_BUTTON_TITLE);
             }
-            else{   //메시지는 REMOVE로, 상태는 ADD로
+            else{   //flag flase 이면 remove 상태에서 버튼 눌렸으므로 메시지는 REMOVE로, 상태는 ADD로
                 primeThread.addObservers(textFieldWindow);
                 TextFieldFlag=true;
                 TextFieldObserverButton.setText(TEXTFIELD_OBSERVER_REMOVE_BUTTON_TITLE);
             }
 
         }
-        else if (e.getSource() == LabelObserverButton) {
-            if(LabelFieldFlag){ //메시지는 ADD로, 상태는 REMOVE로
+        else if (e.getSource() == LabelObserverButton) { //label버튼 눌렀을 때
+            if(LabelFieldFlag){ //flag true이면 add상태에서 버튼 눌렸으므로 메시지는 ADD로, 상태는 REMOVE로
                 primeThread.removeObservers(labelWindow);
                 LabelFieldFlag=false;
                 LabelObserverButton.setText(LABEL_OBSERVER_ADD_BUTTON_TITLE);
             }
-            else{   //메시지는 REMOVE로, 상태는 ADD로
+            else{   //flag flase 이면 remove 상태에서 버튼 눌렸으므로 메시지는 REMOVE로, 상태는 ADD로
                 primeThread.addObservers(labelWindow);
                 LabelFieldFlag=true;
                 LabelObserverButton.setText(LABEL_OBSERVER_REMOVE_BUTTON_TITLE);
             }
         }
-        else if (e.getSource() == stopButton) {
+        else if (e.getSource() == stopButton) { //stop 버튼 눌렀을 때
             primeThread.stopRunning();
         }
     }

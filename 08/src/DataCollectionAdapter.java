@@ -23,7 +23,7 @@ public class DataCollectionAdapter<T> implements DataCollection<T>{
     }
 
     public Iterator createIterator() {
-        return this.data.iterator();
+        return this.data.iterator(); //Arraylist를 iterator로 바꾸려면 .iterator() 만 쓰면 됨.
     }
 
 }

@@ -10,26 +10,28 @@ public class PrimeObservableThread implements Runnable, Subject{
     private boolean first = true;
     private boolean stopRunning = false;
 
-    public PrimeObservableThread() {
-        list=new ArrayList<Observer>();
-    }
+    public PrimeObservableThread() { list=new ArrayList<Observer>(); }
 
     public int getPrimeNumber() {
         return primeNumber;
+    }
+    public void startRunning() {
+        stopRunning = false;
+        run();
     }
 
     public void stopRunning() {
         stopRunning = true;
     }
 
-    public void startRunning() {
-        stopRunning = false;
-        run();
+    @Override //runnable
+    public void run() {
+        generatePrimeNumber();
     }
 
     private void generatePrimeNumber() {
         while (stopRunning == false) {
-            if (first) {
+            if (first) { //맨 처음에만 if문 실행
                 first = false;
                 primeNumber = 2;   // 첫 번째 소수는 2
                 System.out.println(primeNumber);
@@ -62,19 +64,12 @@ public class PrimeObservableThread implements Runnable, Subject{
     }
 
     @Override
-    public void run() {
-        generatePrimeNumber();
-    }
-
-    @Override
-    public void addObservers(Observer o){
-        list.add(o);
-    }
+    public void addObservers(Observer o){ list.add(o); }
     @Override
     public void removeObservers(Observer o){
         list.remove(o);
     }
-    @Override
+    @Override// button 클릭->소수 생성하여 소수 발견하면 observer에 notify->observer는 객체에 소수 update
     public void notifyObservers(){
         for(Observer o : list){
             o.update(primeNumber);

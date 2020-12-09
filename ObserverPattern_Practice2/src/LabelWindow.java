@@ -15,7 +15,7 @@ public class LabelWindow extends FrameWindow implements Observer{
         label.validate();
     }
 
-    public void update(int n){
+    public void update(int n){ //기존 클래스에서 update시 메시지가 바뀌므로 update 함수만 추가
         this.updateText(""+n);
     }
 

@@ -15,6 +15,7 @@ public class TextFieldWindow extends FrameWindow implements Observer{
         textField.validate();
     }
 
+    //기존 클래스에서 update시 메시지가 바뀌므로 update 함수만 추가
     public void update(int n){
         this.updateText(""+n);
     }
